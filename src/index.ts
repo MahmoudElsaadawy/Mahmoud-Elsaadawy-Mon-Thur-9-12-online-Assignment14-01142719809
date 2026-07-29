@@ -30,7 +30,7 @@ class User {
 
 //2
 class Admin extends User {
-  public managedNotes(): void{
+  public manageNotes(): void{
   console.log("managing notes");
   }
 }
@@ -82,6 +82,6 @@ class Storage<T> {
 
 //2 identify relationships
 //  1) Inheritance (Admin => User)
-//  2) Composition (Note => NoteBook)
-//  3) Aggregation (NoteBook => User)
-//  4) Association (User => Note)
+//  2) Composition (NoteBook => Note)
+//  3) Aggregation (User => NoteBook)
+//  4) Association (Note => User)
