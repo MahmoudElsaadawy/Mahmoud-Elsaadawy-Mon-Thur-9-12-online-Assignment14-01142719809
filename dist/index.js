@@ -30,7 +30,7 @@ class User {
     }
 }
 class Admin extends User {
-    managedNotes() {
+    manageNotes() {
         console.log("managing notes");
     }
 }
